@@ -1,30 +1,16 @@
 .message {
-    text-align: right;
 
 }
 
 .imageAndText {
-    display: flex;
-    flex-direction: row-reverse;
 
 }
 
 .imageAndText img {
-    margin-top: auto;
-    width: 48px;
-    height: 48px
 
 }
 
 .text {
-    position: relative;
-    margin-right: 10px;
-    height: 60px;
-    padding: 7px;
-    border-radius: 10px;
-    background: #0066CC;
-    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
-    min-width: 527px;
 
 }
 
@@ -33,37 +19,13 @@
 }
 
 .name {
-    font-family: 'Montserrat', monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
 
-
-    color: #FFFFFF;
 }
 
 .messageText {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
 
-
-    color: #FFFFFF;
 }
 
 .time {
-    margin-top: 5px;
-    margin-right: 12px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 12px;
 
-    color: #000000;
 }

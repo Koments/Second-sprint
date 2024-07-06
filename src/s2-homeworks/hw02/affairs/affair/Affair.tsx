@@ -4,13 +4,14 @@ import s from './Affair.module.css'
 import s2 from '../Affairs.module.css'
 
 type AffairPropsType = {
+    // key не нужно типизировать
     affair: AffairType
-    deleteAffairCallback: (id: number)=> void // need to fix any
+    deleteAffairCallback: any // need to fix any
 }
 
 function Affair(props: AffairPropsType) {
     const deleteCallback = () => {
-        props.deleteAffairCallback(props.affair._id)
+        // need to fix
     }
 
     const nameClass = s.name + ' ' + s2[props.affair.priority]
@@ -23,7 +24,9 @@ function Affair(props: AffairPropsType) {
             className={affairClass}
         >
             <div id={'hw2-name-' + props.affair._id} className={nameClass}>
-               <div>{props.affair.name}</div>
+                {/*создаёт студент*/}
+
+                {/**/}
             </div>
             <div id={'hw2-priority-' + props.affair._id} hidden>
                 {props.affair.priority}
@@ -32,7 +35,7 @@ function Affair(props: AffairPropsType) {
             <button
                 id={'hw2-button-delete-' + props.affair._id}
                 className={buttonClass}
-                onClick={deleteCallback}
+                // need to fix
 
             >
                 {/*текст кнопки могут изменить студенты*/}

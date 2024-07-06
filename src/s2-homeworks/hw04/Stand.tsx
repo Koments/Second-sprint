@@ -99,3 +99,12 @@ const Stand = () => {
 }
 
 export default Stand
+
+
+function mutateMyStrings(stringOne: any, stringTwo: any){
+    let result = ''
+    const firstStr = stringOne.split('');
+    const secondStr = stringTwo.split('');
+    
+
+}
